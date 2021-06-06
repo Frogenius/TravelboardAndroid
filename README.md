@@ -84,4 +84,14 @@ Krótki opis: Aplikacja mobilna służąca jako asystent podróży, która pomo�
         });
   ```
           
-#### Wchodzimy na stroną profilu użytkowniku. Na dole mamy meniu nawigacyjne 
+#### Wchodzimy na stroną profilu użytkowniku. Na dole widzimy menu nawigacyjne 
+![alt text](img/0.png)
+#### Kalendarz
+![alt text](img/8.png)
+#### Mapa
+![alt text](img/10.png)
+#### Pogoda
+![alt text](img/9.png)
+#### Wybór miasta i atrakcji
+![alt text](img/11.png)
+![alt text](img/12.png)
