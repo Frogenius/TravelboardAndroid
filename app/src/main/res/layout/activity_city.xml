@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#41AEA5A9"
+    tools:context=".City">
+    <Button
+        android:id="@+id/back1"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/my_button_bg"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        app:srcCompat="@drawable/bel" />
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@drawable/bel" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:layout_marginTop="-21dp"
+        app:srcCompat="@drawable/r1" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="85dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/q1"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="164dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:shadowColor="#552F2F"
+        android:text="Paris"
+        android:textSize="42sp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
+        android:layout_marginTop="99dp"
+        app:srcCompat="@drawable/ci1" />
+    <ImageView
+        android:id="@+id/imageView161"
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
+        android:layout_marginTop="430dp"
+        app:srcCompat="@drawable/ci2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:textSize="32sp"
+        android:text="Central Paris" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="680dp"
+        android:textSize="22sp"
+        android:text="The Main Mystery of the Louvre or Scientific Art. Vol 1" />
+</RelativeLayout>

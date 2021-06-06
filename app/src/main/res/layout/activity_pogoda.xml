@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fon"
+    tools:context=".Pogoda">
+
+    <ImageView
+        android:id="@+id/obl1"
+        android:layout_width="match_parent"
+        android:layout_height="451dp"
+        android:layout_marginTop="-110dp"
+        app:srcCompat="@drawable/cloud" />
+    <ImageView
+        android:id="@+id/obl2"
+        android:layout_width="match_parent"
+        android:layout_height="501dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/cloud" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="267dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/tb" />
+
+    <ImageView
+        android:id="@+id/eu"
+        android:layout_width="match_parent"
+        android:layout_height="451dp"
+        app:srcCompat="@drawable/ch" />
+    <ImageView
+        android:id="@+id/obl"
+        android:layout_width="match_parent"
+        android:layout_height="451dp"
+        android:layout_marginTop="600dp"
+        app:srcCompat="@drawable/cloud" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="370dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        >
+
+    <EditText
+        android:id="@+id/cityEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter the city name"
+        android:text=""
+        android:textColor="#8F8B8B"
+        android:textSize="28sp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/pog"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="60dp"
+        android:text="Sprawdz" />
+
+    <TextView
+        android:id="@+id/pogodaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="140dp"
+        android:text="Pogoda w miejscu" />
+
+
+
+</RelativeLayout>
