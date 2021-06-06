@@ -95,3 +95,4 @@ Krótki opis: Aplikacja mobilna służąca jako asystent podróży, która pomo�
 #### Wybór miasta i atrakcji
 ![alt text](img/11.png)
 ![alt text](img/12.png)
+
