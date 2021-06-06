@@ -1,6 +1,6 @@
 # TravelboardAndroid
 
-### 1. Charakterystyka  oprogramowania 
+### Charakterystyka  oprogramowania 
 Nazwa skrócona: TravelBoard
 
 Nazwa pełna: TravelBoard - asystent podróżnika
